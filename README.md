@@ -18,6 +18,6 @@ bước 2: git clone https://github.com/phucngdev/BTL_NET1_QuanLyKhachSan.git
 
 bước 3: import database với sql server (file database trong src code)
 
-bước 4: mở file code vừa clone về trong visual studio vào chạy
+bước 4: mở file code vừa clone về trong visual studio, sửa tên server trong file config và chạy
 
 bước 5: đăng nhập với tài khoản root email: root@gmail.com , password: 123
