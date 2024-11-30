@@ -1,0 +1,147 @@
+﻿<Page x:Class="hotel.Booking"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="#F5F6FA">
+
+    <Page.Resources>
+        <!-- Reuse existing styles -->
+        <Style x:Key="MenuButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Padding="20,0">
+                            <ContentPresenter HorizontalAlignment="Left"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1E3266"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#152347"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="BookButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FF4757"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        
+
+
+        <!-- Main Content -->
+        <Grid Grid.Column="1">
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Margin="20">
+                    <!-- Header -->
+                        <TextBlock DockPanel.Dock="Left" Text="Đặt phòng" FontSize="24" FontWeight="SemiBold"/>
+                    
+
+                    <!-- Booking Filters -->
+                    <Grid Margin="0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Date Range Selection -->
+                        <StackPanel Grid.Column="0" Margin="5">
+                            <TextBlock Text="Check-in" Margin="0,0,0,5"/>
+                            <DatePicker x:Name="CheckInDate" SelectedDateFormat="Short" FirstDayOfWeek="Monday"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Margin="5">
+                            <TextBlock Text="Check-out" Margin="0,0,0,5"/>
+                            <DatePicker x:Name="CheckOutDate" SelectedDateFormat="Short" FirstDayOfWeek="Monday"/>
+                        </StackPanel>
+
+                        <!-- Room Type -->
+                        <StackPanel Grid.Column="2" Margin="5">
+                            <TextBlock Text="Loại phòng" Margin="0,0,0,5"/>
+                            <ComboBox x:Name="RoomTypeComboBox" SelectedIndex="0">
+                                <ComboBoxItem Content="Tất cả"/>
+                                <ComboBoxItem Content="Phòng đơn"/>
+                                <ComboBoxItem Content="Phòng đôi"/>
+                                <ComboBoxItem Content="Phòng gia đình"/>
+                                <ComboBoxItem Content="Phòng thông nhau"/>
+                                <ComboBoxItem Content="Phòng cao cấp"/>
+                            </ComboBox>
+                        </StackPanel>
+
+                        <!-- Floor -->
+                        <StackPanel Grid.Column="3" Margin="5">
+                            <TextBlock Text="Tầng" Margin="0,0,0,5"/>
+                            <ComboBox x:Name="FloorComboBox" SelectedIndex="0">
+                                <ComboBoxItem Content="Tất cả"/>
+                                <ComboBoxItem Content="Tầng 2"/>
+                                <ComboBoxItem Content="Tầng 3"/>
+                                <ComboBoxItem Content="Tầng 4"/>
+                                <ComboBoxItem Content="Tầng 5"/>
+                                <ComboBoxItem Content="Tầng 6"/>
+                                <ComboBoxItem Content="Tầng 7"/>
+                            </ComboBox>
+                        </StackPanel>
+
+                        <!-- Search Button -->
+                        <StackPanel Grid.Column="4" Margin="5">
+                            <TextBlock Text=" " Margin="0,0,0,5"/>
+                            <Button Content="Tìm kiếm" Style="{StaticResource BookButtonStyle}" Click="SearchAvailableRooms_Click" Height="31" RenderTransformOrigin="0.489,-0.437"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- Available Rooms -->
+                    <TextBlock Text="Danh sách phòng trống" FontSize="20" FontWeight="SemiBold" Margin="0,20,0,10"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" MaxHeight="500" x:Name="RoomScrollViewer">
+                        <WrapPanel x:Name="RoomWrapPanel">
+                            <!-- Rooms will be dynamically added here -->
+                        </WrapPanel>
+                    </ScrollViewer>
+                </StackPanel>
+            </DockPanel>
+        </Grid>
+    </Grid>
+</Page>

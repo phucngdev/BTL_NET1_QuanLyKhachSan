@@ -1,0 +1,48 @@
+﻿<Page x:Class="hotel.CustomerDetail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:hotel"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CustomerDetail">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+
+        <Grid Grid.Column="1" Margin="20" Background="white">
+            <!-- Define rows and columns -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Title Section -->
+            <TextBlock Text="Chi tiết khách hàng" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" Grid.Row="0"/>
+            <StackPanel Grid.Row="1">
+           
+
+            <TextBlock Text="Họ và tên: " FontWeight="Bold"/>
+            <TextBlock Name="FullNameText"/>
+
+            <TextBlock Text="Email: " FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Name="EmailText"/>
+
+            <TextBlock Text="Số điện thoại: " FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Name="PhoneText"/>
+
+            <TextBlock Text="Địa chỉ: " FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Name="AddressText"/>
+
+            <TextBlock Text="Sinh nhật: " FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Name="DOBText"/>
+
+            <TextBlock Text="CCCD: " FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Name="CCCDText"/>
+
+            <TextBlock FontWeight="Bold" Text="Lịch sử thuê phòng" FontSize="18" Margin="0,20,0,10"/>
+            <DataGrid Name="ReservationDataGrid" AutoGenerateColumns="True" IsReadOnly="True"/>
+        </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,855 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\editemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\editemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\editemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\editemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\manageemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\manageemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\listcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\listcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\adddevicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\adddevicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\adddevicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\adddevicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\manageemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\manageemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\editservice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\editservice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\roomrenteddetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\roomrenteddetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\roomrenteddetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\roomrenteddetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\customerdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\customerdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\roombooked.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\roombooked.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\managerroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\managerroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\bookingdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\bookingdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\listcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\listcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\createemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\createemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\createroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\createroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\createemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\createemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\createroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\createroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\manageservice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\manageservice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\data\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\data\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\customerdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\customerdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\editservice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\editservice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\config\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\config\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\roomdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\roomdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\roomdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\roomdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\roombooked.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\roombooked.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\managerroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\managerroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\editroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\editroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\createservicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\createservicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\booking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\booking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\bookingdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\bookingdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hotel\\hotel\\BookingDetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\manageservice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\manageservice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\editroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\editroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\createservicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\createservicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LAPTOP\\AppData\\Local\\Temp\\.vsdbgsrc\\87e8fa7b41b167ab42b8b5aeea9768abb45906dd3d4a5ea75c8820fcb97f3545\\ItemContainerGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|d:\\formhoatuoi_2121050560_nguy\u1EC5nminhphuc\\hotel\\hotel\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C3AAB2-2E28-4586-B2A6-9C0298C169A7}|hotel\\hotel.csproj|solutionrelative:hotel\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddDeviceWindow.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\AddDeviceWindow.xaml",
+              "RelativeDocumentMoniker": "hotel\\AddDeviceWindow.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\AddDeviceWindow.xaml*",
+              "RelativeToolTip": "hotel\\AddDeviceWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T08:54:16.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddDeviceWindow.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\AddDeviceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\AddDeviceWindow.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\AddDeviceWindow.xaml.cs",
+              "RelativeToolTip": "hotel\\AddDeviceWindow.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:54:07.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\EditEmployee.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditEmployee.xaml.cs*",
+              "RelativeToolTip": "hotel\\EditEmployee.xaml.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:41:13.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditEmployee.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditEmployee.xaml",
+              "RelativeDocumentMoniker": "hotel\\EditEmployee.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditEmployee.xaml*",
+              "RelativeToolTip": "hotel\\EditEmployee.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T08:39:17.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\CreateEmployee.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateEmployee.xaml.cs",
+              "RelativeToolTip": "hotel\\CreateEmployee.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:48:22.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateEmployee.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateEmployee.xaml",
+              "RelativeDocumentMoniker": "hotel\\CreateEmployee.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateEmployee.xaml",
+              "RelativeToolTip": "hotel\\CreateEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T20:41:18.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\ManageEmployee.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageEmployee.xaml.cs",
+              "RelativeToolTip": "hotel\\ManageEmployee.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwE4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:30:16.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageEmployee.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageEmployee.xaml",
+              "RelativeDocumentMoniker": "hotel\\ManageEmployee.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageEmployee.xaml*",
+              "RelativeToolTip": "hotel\\ManageEmployee.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T20:24:47.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomerDetail.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CustomerDetail.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\CustomerDetail.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CustomerDetail.xaml.cs",
+              "RelativeToolTip": "hotel\\CustomerDetail.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:17:18.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerDetail.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CustomerDetail.xaml",
+              "RelativeDocumentMoniker": "hotel\\CustomerDetail.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CustomerDetail.xaml",
+              "RelativeToolTip": "hotel\\CustomerDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T20:14:34.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListCustomer.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ListCustomer.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\ListCustomer.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ListCustomer.xaml.cs",
+              "RelativeToolTip": "hotel\\ListCustomer.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:12:56.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListCustomer.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ListCustomer.xaml",
+              "RelativeDocumentMoniker": "hotel\\ListCustomer.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ListCustomer.xaml*",
+              "RelativeToolTip": "hotel\\ListCustomer.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T20:07:48.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Booking.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Booking.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\Booking.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Booking.xaml.cs",
+              "RelativeToolTip": "hotel\\Booking.xaml.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAowJ4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:37:08.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Booking.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Booking.xaml",
+              "RelativeDocumentMoniker": "hotel\\Booking.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Booking.xaml",
+              "RelativeToolTip": "hotel\\Booking.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T18:33:24.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateServiceWindow.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateServiceWindow.xaml",
+              "RelativeDocumentMoniker": "hotel\\CreateServiceWindow.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateServiceWindow.xaml",
+              "RelativeToolTip": "hotel\\CreateServiceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T18:32:18.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingDetail.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\BookingDetail.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\BookingDetail.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\BookingDetail.xaml.cs",
+              "RelativeToolTip": "hotel\\BookingDetail.xaml.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAYwL0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:31:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BookingDetail.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\BookingDetail.xaml",
+              "RelativeDocumentMoniker": "hotel\\BookingDetail.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\BookingDetail.xaml",
+              "RelativeToolTip": "hotel\\BookingDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T18:30:02.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BookingDetail.xaml.cs",
+              "DocumentMoniker": "D:\\hotel\\hotel\\BookingDetail.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\hotel\\hotel\\BookingDetail.xaml.cs",
+              "ToolTip": "D:\\hotel\\hotel\\BookingDetail.xaml.cs",
+              "RelativeToolTip": "..\\..\\hotel\\hotel\\BookingDetail.xaml.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAiwA4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:29:25.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditService.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditService.xaml",
+              "RelativeDocumentMoniker": "hotel\\EditService.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditService.xaml",
+              "RelativeToolTip": "hotel\\EditService.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T15:54:13.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EditRoom.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditRoom.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\EditRoom.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditRoom.xaml.cs",
+              "RelativeToolTip": "hotel\\EditRoom.xaml.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAuwMwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:56:32.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CreateServiceWindow.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateServiceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\CreateServiceWindow.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateServiceWindow.xaml.cs",
+              "RelativeToolTip": "hotel\\CreateServiceWindow.xaml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:46:44.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditService.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditService.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\EditService.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditService.xaml.cs",
+              "RelativeToolTip": "hotel\\EditService.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:44:56.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\data\\UserSession.cs",
+              "RelativeDocumentMoniker": "hotel\\data\\UserSession.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\data\\UserSession.cs",
+              "RelativeToolTip": "hotel\\data\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:21:00.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\Login.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Login.xaml.cs",
+              "RelativeToolTip": "hotel\\Login.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:17:12.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Login.xaml",
+              "RelativeDocumentMoniker": "hotel\\Login.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Login.xaml",
+              "RelativeToolTip": "hotel\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T03:17:09.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EditRoom.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditRoom.xaml",
+              "RelativeDocumentMoniker": "hotel\\EditRoom.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\EditRoom.xaml",
+              "RelativeToolTip": "hotel\\EditRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T15:54:35.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\Dashboard.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Dashboard.xaml.cs",
+              "RelativeToolTip": "hotel\\Dashboard.xaml.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAuwNQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:33:39.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateRoom.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateRoom.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\CreateRoom.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateRoom.xaml.cs",
+              "RelativeToolTip": "hotel\\CreateRoom.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:17:14.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateRoom.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateRoom.xaml",
+              "RelativeDocumentMoniker": "hotel\\CreateRoom.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\CreateRoom.xaml",
+              "RelativeToolTip": "hotel\\CreateRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T14:17:11.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ItemContainerGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\AppData\\Local\\Temp\\.vsdbgsrc\\87e8fa7b41b167ab42b8b5aeea9768abb45906dd3d4a5ea75c8820fcb97f3545\\ItemContainerGenerator.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\AppData\\Local\\Temp\\.vsdbgsrc\\87e8fa7b41b167ab42b8b5aeea9768abb45906dd3d4a5ea75c8820fcb97f3545\\ItemContainerGenerator.cs [Read Only]",
+              "ViewState": "AgIAAGsFAAAAAAAAAAAIwHoFAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:17:25.967Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Payment.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Payment.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Payment.cs",
+              "RelativeToolTip": "hotel\\models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:20:58.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RoomDetail.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomDetail.xaml",
+              "RelativeDocumentMoniker": "hotel\\RoomDetail.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomDetail.xaml",
+              "RelativeToolTip": "hotel\\RoomDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T11:09:30.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoomDetail.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomDetail.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\RoomDetail.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomDetail.xaml.cs",
+              "RelativeToolTip": "hotel\\RoomDetail.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:04:38.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\config\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "hotel\\config\\DatabaseConfig.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\config\\DatabaseConfig.cs",
+              "RelativeToolTip": "hotel\\config\\DatabaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:57:57.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManageService.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageService.xaml",
+              "RelativeDocumentMoniker": "hotel\\ManageService.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageService.xaml",
+              "RelativeToolTip": "hotel\\ManageService.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T10:49:14.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomRentedDetail.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomRentedDetail.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\RoomRentedDetail.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomRentedDetail.xaml.cs",
+              "RelativeToolTip": "hotel\\RoomRentedDetail.xaml.cs",
+              "ViewState": "AgIAAPYBAAAAAAAAAAAQwBcCAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:32:11.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomRentedDetail.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomRentedDetail.xaml",
+              "RelativeDocumentMoniker": "hotel\\RoomRentedDetail.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomRentedDetail.xaml",
+              "RelativeToolTip": "hotel\\RoomRentedDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T10:30:13.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ManageService.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageService.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\ManageService.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManageService.xaml.cs",
+              "RelativeToolTip": "hotel\\ManageService.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwFkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:11:56.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Reservation.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Reservation.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Reservation.cs",
+              "RelativeToolTip": "hotel\\models\\Reservation.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:07:20.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\MainWindow.xaml.cs",
+              "RelativeToolTip": "hotel\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:02:48.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Service.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Service.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Service.cs",
+              "RelativeToolTip": "hotel\\models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:47:23.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Room.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Room.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Room.cs",
+              "RelativeToolTip": "hotel\\models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:47:19.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Employee.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Employee.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Employee.cs",
+              "RelativeToolTip": "hotel\\models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:47:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Device.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Device.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Device.cs",
+              "RelativeToolTip": "hotel\\models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:45:58.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Customer.cs",
+              "RelativeDocumentMoniker": "hotel\\models\\Customer.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\models\\Customer.cs",
+              "RelativeToolTip": "hotel\\models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:45:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoomBooked.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomBooked.xaml",
+              "RelativeDocumentMoniker": "hotel\\RoomBooked.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomBooked.xaml",
+              "RelativeToolTip": "hotel\\RoomBooked.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T09:12:34.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManagerRoom.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManagerRoom.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\ManagerRoom.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManagerRoom.xaml.cs",
+              "RelativeToolTip": "hotel\\ManagerRoom.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:10:41.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoomBooked.xaml.cs",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomBooked.xaml.cs",
+              "RelativeDocumentMoniker": "hotel\\RoomBooked.xaml.cs",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\RoomBooked.xaml.cs",
+              "RelativeToolTip": "hotel\\RoomBooked.xaml.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAowK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:10:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ManagerRoom.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManagerRoom.xaml",
+              "RelativeDocumentMoniker": "hotel\\ManagerRoom.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\ManagerRoom.xaml",
+              "RelativeToolTip": "hotel\\ManagerRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T09:09:47.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "hotel\\Dashboard.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\Dashboard.xaml",
+              "RelativeToolTip": "hotel\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T09:07:33.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "hotel\\MainWindow.xaml",
+              "ToolTip": "D:\\formHoaTuoi_2121050560_Nguy\u1EC5nMinhPhuc\\hotel\\hotel\\MainWindow.xaml",
+              "RelativeToolTip": "hotel\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-23T09:07:04.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

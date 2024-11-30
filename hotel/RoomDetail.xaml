@@ -1,0 +1,200 @@
+﻿<Page x:Class="hotel.RoomDetail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:local="clr-namespace:hotel"
+      mc:Ignorable="d"
+      Background="#F5F6FA">
+
+    <Page.Resources>
+        <Style x:Key="MenuButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Padding="20,0">
+                            <ContentPresenter HorizontalAlignment="Left"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1E3266"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#152347"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AssetCardStyle" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="1" Opacity="0.1"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DeleteButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FFE8E8"/>
+            <Setter Property="Foreground" Value="#FF4757"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AddButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FF4757"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    
+        <!-- Main Content -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+
+        <Grid Grid.Column="1">
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Margin="20">
+                <DockPanel LastChildFill="True">
+                    <Button DockPanel.Dock="Left" Content="Quay lại" Width="60" Click="Back_click"/>
+                        <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Content="🔔" Width="40"/>
+                        <Button Content="👤" Width="40"/>
+                    </StackPanel>
+                </DockPanel>
+
+                <DockPanel Margin="0,20">
+                    <!-- Room Name -->
+                    <TextBlock x:Name="RoomNameTextBlock" 
+               Text="Room Name" 
+               FontSize="24" 
+               Foreground="#FF4757" 
+               DockPanel.Dock="Left" 
+               VerticalAlignment="Center"/>
+
+                    <!-- Buttons for Edit and Delete -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" DockPanel.Dock="Right">
+                        <Button Content="Chỉnh sửa" 
+                Style="{StaticResource AddButtonStyle}" 
+                Margin="0,0,10,0"
+                Click="EditRoom_Click"/>
+                        <Button Content="Xóa" 
+                Style="{StaticResource DeleteButtonStyle}" 
+                Click="DeleteRoom_Click"/>
+                    </StackPanel>
+                </DockPanel>
+
+
+                
+                <TextBlock x:Name="DescriptionTextBlock" Text="Description" Margin="0,10"/>
+
+                <Grid Margin="0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock x:Name="RoomTypeTextBlock" Text="Room Type: Single"/>
+                        <TextBlock x:Name="FloorTextBlock" Text="Floor: 2nd Floor"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <TextBlock x:Name="StatusTextBlock" Text="Status: Available"/>
+                        <TextBlock x:Name="CapacityTextBlock" Text="Capacity: 40"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <TextBlock x:Name="BedNumberTextBlock" Text="BedNumber: 1"/>
+                        <TextBlock x:Name="PricePerNightTextBlock" Text="PricePerNight: 10000"/>
+                    </StackPanel>
+                </Grid>
+
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                        <Button Content="Xóa thiết bị" Click="DeleteSelectedDevices_Click" Margin="0,0,10,0" Style="{StaticResource DeleteButtonStyle}"/>
+                        <Button Content="+ Thêm thiết bị" Click="AddAsset_Click" Style="{StaticResource AddButtonStyle}"/>
+                </StackPanel>
+
+                    <ItemsControl x:Name="DevicesControl" ItemsSource="{Binding Devices}" Margin="0,20,0,0">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" ItemWidth="200" ItemHeight="200" HorizontalAlignment="Left"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Gray" BorderThickness="1" Margin="5,5,10,10">
+                                    <StackPanel>
+                                        <!-- Checkbox for selecting the device -->
+                                        <CheckBox x:Name="DeviceCheckBox" HorizontalAlignment="Left" Margin="5" 
+                              Checked="DeviceCheckBox_Checked" Unchecked="DeviceCheckBox_Unchecked"/>
+
+                                        <!-- Device Image -->
+                                        <Image Source="{Binding Image}" Height="100" />
+                                        <TextBlock Text="{Binding DeviceName}" HorizontalAlignment="Center" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Quantity}" HorizontalAlignment="Center" Opacity="0.7"/>
+                                        <TextBlock Text="{Binding Description}" HorizontalAlignment="Center" Opacity="0.7"/>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+
+
+
+
+                </StackPanel>
+        </DockPanel>
+    </Grid>
+    </ScrollViewer>
+
+</Page>

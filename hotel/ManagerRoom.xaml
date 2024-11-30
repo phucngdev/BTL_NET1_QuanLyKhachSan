@@ -1,0 +1,45 @@
+﻿<Page x:Class="hotel.ManageRoom"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      
+      Title="Manage Room">
+
+    <!-- Main Content -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+
+        <Grid Grid.Column="1" Margin="20" Background="white">
+        <!-- Define rows and columns -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Section -->
+        <TextBlock Text="Quản lý phòng" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" Grid.Row="0"/>
+
+        <!-- Create Room Button -->
+            <Button Content="Tạo mới phòng" Width="120" Height="40" Background="green" Foreground="White"
+                Click="CreateRoom_Click" HorizontalAlignment="Right" Margin="0,0,0,10" Grid.Row="0"/>
+
+        <!-- Room List Section -->
+        <DataGrid x:Name="RoomDataGrid" AutoGenerateColumns="False" IsReadOnly="True" Height="500" Margin="0,0,0,10" SelectionChanged="RoomDataGrid_SelectionChanged" Grid.Row="1">
+            <DataGrid.Columns>
+                
+                <DataGridTextColumn Header="Tên phòng" Binding="{Binding Roomname}" Width="*"/>
+                <DataGridTextColumn Header="Loại phòng" Binding="{Binding RoomType}" Width="*"/>
+                <DataGridTextColumn Header="Diện tích" Binding="{Binding Capacity}" Width="*"/>
+                <DataGridTextColumn Header="Giá/đêm" Binding="{Binding PricePerNight}" Width="*"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="*"/>
+                <DataGridTextColumn Header="Tầng" Binding="{Binding Floor}" Width="*"/>
+                <DataGridTextColumn Header="Số giường" Binding="{Binding BedNumber}" Width="*"/>
+                <DataGridTextColumn Header="Chi tiết" Binding="{Binding Description}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+    </ScrollViewer>
+
+</Page>

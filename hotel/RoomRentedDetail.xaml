@@ -1,0 +1,211 @@
+﻿<Page x:Class="hotel.RoomRentedDetail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:hotel"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="RoomRentedDetail">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+
+        <Grid Margin="20" Background="white">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Tiêu đề -->
+            <TextBlock Text="Chi tiết phòng đã đặt" FontSize="24" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,20" Grid.Row="0"/>
+
+            <!-- Thông tin phòng -->
+            <Grid Margin="0,20" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock x:Name="RoomNameText" Text="Room Name: "/>
+                    <TextBlock x:Name="RoomTypeText" Text="Room Type: "/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <TextBlock x:Name="FloorText" Text="Floor: "/>
+                    <TextBlock x:Name="CapacityText" Text="Capacity: "/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock x:Name="BedNumberText" Text="Bed Number: "/>
+                    <TextBlock x:Name="PricePerNightText" Text="Price Per Night: "/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Thông tin khách hàng -->
+            <Grid Margin="0,20" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock x:Name="CustomerNameText" Text="Customer Name: "/>
+                    <TextBlock x:Name="PhoneText" Text="Phone: "/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <TextBlock x:Name="CheckInDateText" Text="Check-In Date: "/>
+                    <TextBlock x:Name="CheckOutDateText" Text="Check-Out Date: "/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock x:Name="TotalPriceText" Text="Total Price: "/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Nút Check In và Cancel cho trạng thái BOOKING -->
+            <StackPanel x:Name="BookingButtonsPanel" Grid.Row="3" Orientation="Horizontal" 
+                    HorizontalAlignment="Right" Margin="0,20">
+                <Button x:Name="CheckInButton" Content="Check In" 
+                    Width="120" Height="35"
+                    Click="CheckInButton_Click"
+                    Background="#4CAF50" 
+                    Foreground="White" 
+                    FontWeight="Bold"
+                    Margin="0,0,10,0"/>
+                <Button x:Name="CancelButton" Content="Hủy phòng" 
+                    Width="120" Height="35"
+                    Click="CancelButton_Click"
+                    Background="#f44336" 
+                    Foreground="White" 
+                    FontWeight="Bold"/>
+            </StackPanel>
+
+            <StackPanel x:Name="ListServiceUsed" Grid.Row="4">
+                <TextBlock x:Name="ServicesUsedHeader" Text="Dịch vụ đã sử dụng:" FontWeight="Bold" Margin="0,10"/>
+                <DataGrid x:Name="serviceListUsed" AutoGenerateColumns="False" IsReadOnly="True" 
+     Height="100" Margin="0,0,0,10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID dịch vụ" Binding="{Binding ServiceID}" Width="*"/>
+                        <DataGridTextColumn Header="Tên dịch vụ" Binding="{Binding ServiceName}" Width="*"/>
+                        <DataGridTextColumn Header="Giá tiền" Binding="{Binding Price}" Width="*"/>
+                        <DataGridTextColumn Header="Số lượng" Binding="{Binding Quantity}" Width="*"/>
+                        <DataGridTextColumn Header="Tổng giá tiền" Binding="{Binding TotalPrice}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+
+            <!-- Thông tin thanh toán -->
+            <StackPanel x:Name="PaymentDetailsSection" Grid.Row="5" Margin="0,20">
+                <TextBlock Text="Thông tin thanh toán:" FontWeight="Bold" Margin="0,10"/>
+                <StackPanel>
+                    <TextBlock x:Name="AmountPaidText" Text="Số tiền đã thanh toán: " FontWeight="SemiBold"/>
+                    <TextBlock x:Name="PaymentDateText" Text="Ngày thanh toán: " FontWeight="SemiBold"/>
+                    <TextBlock x:Name="PaymentMethodText" Text="Hình thức thanh toán: " FontWeight="SemiBold"/>
+                </StackPanel>
+            </StackPanel>
+
+
+            <!-- Phần RENT NOW -->
+            <StackPanel x:Name="RentNowSection" Grid.Row="5">
+
+
+                <!-- Thêm dịch vụ -->
+                <TextBlock x:Name="AddServiceHeader" Text="Thêm dịch vụ sử dụng:" FontWeight="Bold" Margin="0,10"/>
+                <Grid x:Name="ServiceAddGrid">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="210"/>
+                        <ColumnDefinition Width="110"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Chọn dịch vụ:" VerticalAlignment="Center" Margin="5" 
+                          Grid.Column="0" Grid.Row="0"/>
+                    <ComboBox x:Name="ServiceComboBox" Grid.Column="0" Width="200" Margin="5" Grid.Row="1" />
+
+                    <TextBlock Text="Số lượng:" VerticalAlignment="Center" Margin="5" 
+                          Grid.Column="1" Grid.Row="0"/>
+                    <TextBox x:Name="QuantityTextBox" Grid.Column="1" Width="100" Margin="5" 
+                         TextChanged="QuantityTextBox_TextChanged" Grid.Row="1"/>
+
+                    <TextBlock Text="Giá tiền:" VerticalAlignment="Center" Margin="5" 
+                          Grid.Column="2" Grid.Row="0"/>
+                    <TextBlock x:Name="CalculatedTotalPriceText" Grid.Column="2" 
+                          VerticalAlignment="Center" Margin="5" Grid.Row="1"/>
+
+                    <StackPanel Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right" 
+                          Margin="5" Grid.Row="1">
+                        <Button Content="Lưu" Width="60" Margin="0,0,10,0" Click="SaveService_Click"/>
+                        <Button Content="Hủy" Width="60" Click="CancelService_Click"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Thanh toán -->
+                <TextBlock x:Name="PaymentHeader" Text="Thanh toán:" FontWeight="Bold" Margin="0,20,0,10"/>
+                <Grid x:Name="PaymentGrid">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="230"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                        <TextBlock Text="Hình thức thanh toán:" FontWeight="SemiBold"/>
+                        <ComboBox x:Name="PaymentMethodComboBox" Width="200" Margin="0,5">
+                            <ComboBoxItem>Tiền mặt</ComboBoxItem>
+                            <ComboBoxItem>Chuyển khoản</ComboBoxItem>
+                            <ComboBoxItem>Credit Card</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Tiền phòng:" FontWeight="SemiBold"/>
+                        <TextBlock x:Name="RoomTotalText" Text="0" FontSize="16"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <TextBlock Text="Tiền dịch vụ:" FontWeight="SemiBold"/>
+                        <TextBlock x:Name="ServicesTotalText" Text="0" FontSize="16"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid x:Name="TotalGrid" Margin="0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="Tổng hóa đơn thanh toán:" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock x:Name="GrandTotalText" Text="0" FontSize="20" Foreground="Red"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+                        <Button x:Name="PayButton" Content="Thanh Toán" 
+                            Width="150" Height="35"
+                            Click="PayButton_Click"
+                            Background="#4CAF50" 
+                            Foreground="White" 
+                            FontWeight="Bold"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>
