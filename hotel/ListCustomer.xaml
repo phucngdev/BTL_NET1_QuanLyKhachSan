@@ -20,7 +20,9 @@
             <!-- Title Section -->
             <TextBlock Text="Danh sách khách hàng" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" Grid.Row="0"/>
 
-           
+           <Button Content="Thêm mới khách hàng" Width="120" Height="40" Background="green" Foreground="White"
+    Click="CreateCustomer_Click" HorizontalAlignment="Right" Margin="0,0,0,10" Grid.Row="0"/>
+
            
             <DataGrid Name="CustomerDataGrid"
                   AutoGenerateColumns="False"

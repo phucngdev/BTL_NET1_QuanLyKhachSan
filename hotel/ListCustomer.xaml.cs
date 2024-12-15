@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
 using hotel.config;
@@ -52,6 +53,15 @@ namespace hotel
                 NavigationService.Navigate(new CustomerDetail(selectedCustomer));
             }
         }
+
+        private void CreateCustomer_Click(object sender, RoutedEventArgs e)
+        {
+           
+                NavigationService.Navigate(new CreateCustomer());
+            
+        }
+
+        
     }
 
    
